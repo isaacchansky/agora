@@ -1,0 +1,13 @@
+test_var: testing
+development:
+  hostname: localhost
+  db_adapter: postgres
+  db_database: agora_dev
+  db_username: ENV['PG_USER']
+  db_password: ENV['PG_PASS']
+  db_logfile: $stdout
+
+test:
+
+production:
+

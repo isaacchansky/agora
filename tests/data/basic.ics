@@ -1,0 +1,913 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Boston Civic Innovation
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:A shared calendar for all the civic technology\, design\, and 
+ innovation events in the Greater Boston area
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20140919T210000Z
+DTEND:20140920T010000Z
+DTSTAMP:20140902T231413Z
+UID:i41mb3klh00m47tp2mmb9hn56s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140817T223505Z
+DESCRIPTION:For details\, link here: https://citizens-rising.eventbrite.com
+LAST-MODIFIED:20140830T214435Z
+LOCATION:MIT Kresge Auditorium - 48 Massachusetts Ave - Cambridge\, MA 0213
+ 9
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Citizens Rising: A Republic Held Hostage And The Plan To Take It Ba
+ ck
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140920T130000Z
+DTEND:20140921T210000Z
+DTSTAMP:20140902T231413Z
+UID:6b9ju2amv66ajgrlvf8o2nvmcg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140830T214254Z
+DESCRIPTION:For details\, link here: https://hackfordemocracy-boston.eventb
+ rite.com
+LAST-MODIFIED:20140830T214332Z
+LOCATION:MIT Stata Center - 32 Vassar Street - Cambridge\, MA 02139
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hack for Democracy – Boston
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140809
+DTEND;VALUE=DATE:20140811
+DTSTAMP:20140902T231413Z
+UID:adij27v2jv6jvnv228dla03r5g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140811T153535Z
+DESCRIPTION:https://2014.battlehack.org/boston\n\n---\n\nCreate an app that
+  helps solve a local problem\nFor example: help charities match donors\, im
+ prove public transportation planning.
+LAST-MODIFIED:20140811T153602Z
+LOCATION:Isobar\, Boston South Station\, Boston\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PayPal BattleHack Boston
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140809
+DTEND;VALUE=DATE:20140811
+DTSTAMP:20140902T231413Z
+UID:4tbkb34o9tfek5h640ab7hvos8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140811T153118Z
+DESCRIPTION:http://hubhacks.challengepost.com\n\n---\n\nMayor Martin J. Wal
+ sh made a commitment early in his first tenure to make processes like Permi
+ tting easier on Bostonians\, from individuals hoping to start small busines
+ ses\, to developers and contractors\, to  homeowners looking to make additi
+ ons on their homes. In addition to a full review of the permitting applicat
+ ion process and portal\, Mayor Walsh\, along with the Department of Innovat
+ ion and Technology (DoIT) and the Mayor’s Office of New Urban Mechanics (MO
+ NUM)\, is inviting IT developers and members of the Boston community to com
+ e together for HubHacks\, the City’s first-ever civic minded Hackathon.\n\n
+ At this in-person Hackathon\, developers are invited to work together to at
+ tempt to solve a series of challenges that represent the most pressing pain
+  points for those seeking permit applications. Teams can pick among four av
+ ailable challenges related to the permitting system of the City of Boston. 
+ On the second day\, teams will present their solutions and those with the b
+ est ideas for each challenge will be recognized. The challenges include:\n\
+ n    Which Permits Do I Need?: A single project may require multiple permit
+ s. Applicants need a clear\, intuitive\, and enjoyable guide that will help
+  applicants identify the permits they need to start working!\n\n    What’s 
+ my Address of Record?: Every project needs to be linked to an address in th
+ e City’s master database.  In the current system\, finding your address is 
+ tougher than it should be. Our new online system needs a clear way to searc
+ h addresses and suggest alternatives\, getting it right the first time.\n\n
+     Can I Apply for that Permit Online?: With September 1st weeks away\, de
+ velopers will try their hand at a challenge to provide a very practical sol
+ ution using the City’s new API - creating a simple online and/or mobile app
+ lication for Street Occupancy permits required to block space for a moving 
+ truck.  \n\n    Where am I in the Approval Process?: Complex building proje
+ cts can take months to review and permit\, even if the process works correc
+ tly. Residents needs a clear way to track all permits associated with their
+  project\, which helps them understand how close they are to getting underw
+ ay. \n
+LAST-MODIFIED:20140811T153557Z
+LOCATION:District Hall\, 75 Northern Ave\, Boston\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HubHacks: Permitting
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140618T223000Z
+DTEND:20140619T003000Z
+DTSTAMP:20140902T231413Z
+UID:rb5srj7kpjmdkuaumflu1upohk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140610T182231Z
+DESCRIPTION:For details\, link here: https://projectionfestival.eventbrite.
+ com
+LAST-MODIFIED:20140614T173313Z
+LOCATION:District Hall - 75 Northern Ave - Boston\, MA 02210
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Boston's Projection\, Music\, & Arts Festival - Vision Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140612T170000Z
+DTEND:20140615T200000Z
+DTSTAMP:20140902T231413Z
+UID:lqeevj4cvpeichsn8fotsf9l70@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140609T213643Z
+DESCRIPTION:For RSVP: https://mit-legal-hackathon.eventbrite.com\n\nhttp://
+ legalhackathon.org/\n\nLegalHackathon.org serves as the new media interface
+  to experience and engage in this online event. Live small group discussion
+  and team collaboration for this event will be conducted through MIT Media 
+ Lab Unhangout sessions and augmented by live broadcasts embedded on the con
+ ference blog (under re-construction).  \n\nThursday and Friday are intended
+  primarily as days for discussion\, learning and brainstorming.  Saturday a
+ nd Sundary are reserved for teams working on projects and final presentatio
+ ns.  Top projects will be announced based on a panel of judges and ratings 
+ by fellow participants.
+LAST-MODIFIED:20140609T213850Z
+LOCATION:MIT Media Lab\, Amherst Street\, Cambridge\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MIT Legal Hackathon
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140607T130000Z
+DTEND:20140608T220000Z
+DTSTAMP:20140902T231413Z
+UID:6s50rb64eagbj2t292cc12r9p0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140514T230737Z
+DESCRIPTION:Limited RSVP here: https://www.eventbrite.com/e/hacking-journal
+ ism-rethink-how-we-create-disseminate-and-consume-media-tickets-11407617491
+ \n\nThere is so much opportunity for new products in the media and publishi
+ ng space\, but figuring out what will succeed is no easy task. This hackath
+ on will bring together journalists\, developers\, and designers to build ou
+ t ideas to reshape the future of news.\n\nThe event will begin with lightni
+ ng talks to inspire ideas for the hackathon\, and hacking will continue for
+  a day.  At the end of the hackathon teams will present their projects.  Th
+ e lightning talks and presentations will be open\, but there is limited ava
+ ilability for the hackathon.  If you are attending only the project present
+ ations\, you are welcome to sign up as a Spectator. \n\nThe hackathon will 
+ emphasis opportunities around mobile - including how we can build tools to 
+ improve content creation\, dissemination\, and consumption on mobile. \n\nS
+ ee more details here on the website: http://hackingjournalism.com. \n\nIf y
+ ou have any questions\, tweet @whichlight or email kawandeep[at]embed.ly
+LAST-MODIFIED:20140605T195223Z
+LOCATION:MIT Media Lab - 75 Amherst St - Cambridge\, MA 02139
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Hacking Journalism: Rethink how we create\, disseminate\, and consu
+ me media
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140604T223000Z
+DTEND:20140605T003000Z
+DTSTAMP:20140902T231413Z
+UID:8rin58tigaf1u7l3gsr1j46eg0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140514T182752Z
+DESCRIPTION:RSVP here: https://www.eventbrite.com/e/public-space-invitation
+ al-awards-tickets-11609100131\n\nIn February\, the Mayor's Office of New Ur
+ ban Mechanics made an open call for creative minds to re-think small civic 
+ spaces and pieces of public infrastructure. Over 70 entries were received i
+ n the first ever Public Space Invitational. \n\nJoin Mayor Martin J. Walsh 
+ as he opens up the third and fourth floors of City Hall to showcase a galle
+ ry of all the submissions and announces the winners of the Invitational. \n
+ \nExhibit and light food will be provided by generous sponsorship from TD B
+ ank and Robert Half. Attendees should enter from the Congress Street side o
+ f City Hall (across from Fanueil Hall) on the first floor as the "main entr
+ ance" will be locked. \n
+LAST-MODIFIED:20140604T232658Z
+LOCATION:Boston City Hall - 1 City Hall Ave - Boston\, MA 02201
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Public Space Invitational Awards
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20140610T190000
+DTEND;TZID=America/New_York:20140610T210000
+DTSTAMP:20140902T231413Z
+UID:odro0hubo5gq93jfphccf9ns2g@google.com
+RECURRENCE-ID;TZID=America/New_York:20140610T190000
+CLASS:PUBLIC
+CREATED:20130313T130830Z
+DESCRIPTION:At Code for Boston's weekly hack nights\, Brigade members gathe
+ r in person to work on civic technology projects\, plan future work\, and i
+ nteract with community leaders.\n\nRSVP via meetup: http://www.meetup.com/C
+ ode-for-Boston/
+LAST-MODIFIED:20140520T231813Z
+LOCATION:Workbar 45 Prospect Street\, Cambridge\, MA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Code for Boston Weekly Hack Night
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20140527T190000
+DTEND;TZID=America/New_York:20140527T210000
+DTSTAMP:20140902T231413Z
+UID:odro0hubo5gq93jfphccf9ns2g@google.com
+RECURRENCE-ID;TZID=America/New_York:20140527T190000
+CLASS:PUBLIC
+CREATED:20130313T130830Z
+DESCRIPTION:At Code for Boston's weekly hack nights\, Brigade members gathe
+ r in person to work on civic technology projects\, plan future work\, and i
+ nteract with community leaders.\n\nRSVP via meetup: http://www.meetup.com/C
+ ode-for-Boston/
+LAST-MODIFIED:20140520T231813Z
+LOCATION:Workbar\, 45 Prospect Street\, Cambridge\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Code for Boston Weekly Hack Night
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20130312T190000
+DTEND;TZID=America/New_York:20130312T210000
+RRULE:FREQ=WEEKLY;WKST=SU;BYDAY=TU
+DTSTAMP:20140902T231413Z
+UID:odro0hubo5gq93jfphccf9ns2g@google.com
+CLASS:PUBLIC
+CREATED:20130313T130830Z
+DESCRIPTION:At Code for Boston's weekly hack nights\, Brigade members gathe
+ r in person to work on civic technology projects\, plan future work\, and i
+ nteract with community leaders.\n\nRSVP via meetup: http://www.meetup.com/C
+ ode-for-Boston/
+LAST-MODIFIED:20140520T231813Z
+LOCATION:Cambridge Innovation Center\, 1 Broadway\, Cambridge MA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Code for Boston Weekly Hack Night
+TRANSP:OPAQUE
+CATEGORIES:http://schemas.google.com/g/2005#event
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140603T213000Z
+DTEND:20140604T003000Z
+DTSTAMP:20140902T231413Z
+UID:nj51ssjrcaoh8te14tr964ugc4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140515T015623Z
+DESCRIPTION:RSVP here: https://www.eventbrite.com/e/microsoft-innovation-po
+ licy-center-presents-a-conversation-on-civic-technology-transportation-tick
+ ets-11331786679\n\nBoston is home to one of the oldest public transportatio
+ n systems in the United States. Because of this\, the historic streets and 
+ systems are consistently undergoing upgrades and rebuilds\, causing unwante
+ d traffic and delays.\n\nBut with the rise of new technologies\, solutions 
+ are being developed.\n\nDistrict Hall recently hosted the 37 Billion Mile D
+ ata Challenge highlighting the vast array of data available related to driv
+ ing in Massachusetts. More data is available from the Open MBTA initiative 
+ providing improved information to citizens and better analysis to the MBTA.
+ \n\nAs Bostonians demand more from our public transit systems\, let’s put o
+ ur expertise in technology and innovation to work to create new ways to add
+ ress the transportation challenges in our city.\n\nPlease join us at Distri
+ ct Hall\, in Boston’s thriving Innovation District\, for a discussion on te
+ chnology and transportation. We want to expand the conversation to address 
+ the harder and broader problems that public groups are facing. A distinguis
+ hed panel will discuss how technology relates to local transportation in to
+ day's world and how the solutions can help the city of Boston. Panelists in
+ clude:\n\nSecretary Richard Davey\, Massachusetts Department of Transportat
+ ion\n\nJosh Robin\, Vice President for Strategy and Development\, Masabi\n\
+ nSandra Richter\, MIT Media Lab\n\nIn coordination with the Venture Café Fo
+ undation\, the Microsoft Innovation and Policy Center will convene this con
+ versation on Civic Tech on June 3\, 2014\, 5:30PM – 7:30PM at District Hall
+  in Boston’s Innovation District.\n\nA reception will follow from 7:30pm-8:
+ 30 PM.\n\n#CivicTechBOS
+LAST-MODIFIED:20140515T015638Z
+LOCATION:District Hall - 75 Northern Ave - Boston\, MA 02210
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Microsoft Innovation & Policy Center Presents: A Conversation on Ci
+ vic Technology & Transportation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140515T000000Z
+DTEND:20140515T030000Z
+DTSTAMP:20140902T231413Z
+UID:oosgqe5j945j8slvn8niqkb5g0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140430T195656Z
+DESCRIPTION:RSVP here: https://thehelloproject.eventbrite.com\n\nBoston has
+  a massive creative class. Our vibrant arts & design and tech communities a
+ re some of the best in the world. What would happen if these communities ha
+ d more opportunities to interact\, share ideas\, and just get to know each 
+ other? It's time to find out.\nJoin Startup Institute and Future Boston All
+ iance for the first The Hello Project event. We're hosting a massive networ
+ king party that will allow us to come together to say hello! With so many c
+ reative people in one room\, you can bet on meeting someone awesome. \n\nAb
+ out The Hello Project:\nThe Hello Project\, launched by Startup Institute a
+ nd Future Boston Alliance\, is breaking down the barriers that exist betwee
+ n Boston arts & design and tech communities. Through a series of events\, w
+ e will provide opportunities for these communities unite and make connectio
+ ns that wouldn't otherwise be made. We believe great things happen with cre
+ ative people come together. 
+LAST-MODIFIED:20140513T212649Z
+LOCATION:GEM Nightclub and Lounge - 42 Province Street - Boston\, MA 02114
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Hello Project- Boston
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140528T230000Z
+DTEND:20140529T013000Z
+DTSTAMP:20140902T231413Z
+UID:e1aljjs7n48bkif357j0pd6gok@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.e1aljjs7n48bkif357j0pd6gok
+CREATED:20140513T211453Z
+DESCRIPTION:https://www.eventbrite.com/e/the-mass-edudata-challenge-registr
+ ation-11540647387\n\n---\n\nThe Massachusetts Department of Elementary and 
+ Secondary Education (DESE) maintains extensive data sets on education from 
+ all of the state’s 351 cities and towns and is seeking to spark additional 
+ engagement and innovation around its data through the launch of the Mass Ed
+ uData Challenge-  a six week competition aimed at engaging the public in vi
+ ewing\, analyzing\, and visualizing Massachusetts educational data to produ
+ ce new insights\, tools\, and opportunities to improve outcomes and drive s
+ ocial benefit in the Commonwealth.\n\nVisualizations and insights produced 
+ through the Mass EduData Challenge hold the potential to impact the awarene
+ ss and understanding of education data across the Commonwealth\, helping to
+  inform and drive decisions around funding\, achievement\, equity\, and fut
+ ure policies.\n\nThe data is available now and the Mass EduData Challenge w
+ ill official kick-off on Wednesday\, May 28th with a “Team Building & Mento
+ ring Event” hosted at hack/reduce – the Cambridge\, MA based community “hac
+ kerspace”. At the event\, participants will be encouraged to review the dat
+ a\, connect and consult with domain experts\, and begin to form both their 
+ teams and the foundation for their ideas for eventual submission.\n\nThe da
+ ta challenge is designed to encourage participants to choose their own most
+  compelling “lens“ through which to analyze the data\, which may include: i
+ llustrating relationships involving funding\, tests scores\, or distributio
+ n and predictability of educational outcomes.
+LAST-MODIFIED:20140513T211515Z
+LOCATION:hack/reduce\, Third Street\, Cambridge\, MA\, United States
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Mass EduData Challenge
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140430T223000Z
+DTEND:20140501T000000Z
+DTSTAMP:20140902T231413Z
+UID:tr54p6qddss4k8kcbd1ksonsgs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140422T195250Z
+DESCRIPTION:From: http://bostonapp.org/upcomingsessions/march-2014-tactical
+ -urbanismtactical-art-2-0/\n\nTHE RECENT\, AND IMPORTANT\, “Public Space In
+ vitational” (PSI) announced by Kris Carter and Michael Evans of the Mayor’s
+  Office of New Urban Mechanics is a major contribution to a more robust and
+  inclusive civic environment\, with proposals that fulfill NUM’s request fo
+ r initiatives that are “simple\, intuitive\, and literally awesome.” This i
+ s significant. But…what’s next?\n\nWhat/where/how are the new ways in which
+  multiple stakeholders – artists\, communities\, agencies\, hackers – can c
+ ome together to increase the limits of what’s doable in cultivating public 
+ spaces? What technologies and resources can be brought to bear that expand 
+ and sustain participation in these efforts? How can we weave together physi
+ cal\, organizational\, and community-based infrastructure from the outset? 
+ How can these kinds of efforts reflect a multi-faceted understanding of urb
+ an equity?\n\nJoin BostonAPP/Lab in a freewheeling conversation/co-creative
+  session aimed at beginning to develop a new model for populating public sp
+ aces. “Creators” will include:Nigel Jacob\, co-chair\, Mayor’s Office of Ne
+ w Urban Mechanics\; Dan Sternof Beyer\, co-founder\, New American Public Ar
+ t\; Chrislene DeJean and Terry Marshall\, co-founders\,Intelligent Mischief
+ \; Lyre Calliope\, Community Lead\, Code for Boston\; Nate Smith\, artist. 
+ We particularly want your participation and your ideas\, leading to outcome
+ s that will serve all stakeholders.\n\nMeetings are free and open to all\, 
+ but RSVPs are required: https://online.architects.org/bsassa/evtssarsvp.dis
+ play_page?p_cust_id=1134150&p_event_id=1309&p_item_id=CTE_RSVP\n\nFor more 
+ information on getting to BSA Space\, including accessibility and parking\,
+  visit http://bsaspace.org/about/
+LAST-MODIFIED:20140429T195431Z
+LOCATION:BSA Space 290 Congress Street Suite 200 Boston\, MA 02210
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Boston APP/Lab: enriching public spaces through virtual\, social\, 
+ and physical infrastructure
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140412
+DTEND;VALUE=DATE:20140413
+DTSTAMP:20140902T231413Z
+UID:t7peq17l2r6pkt8pcff5sg251s@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.t7peq17l2r6pkt8pcff5sg251s
+CREATED:20140404T193512Z
+DESCRIPTION:https://2014.spaceappschallenge.org/location/cambridge-usa/\n\n
+ ---\n\nThe International Space Apps Challenge is an international mass coll
+ aboration focused on space exploration that takes place over 48-hours in ci
+ ties around the world. The event embraces collaborative problem solving wit
+ h a goal of producing relevant open-source solutions to address global need
+ s applicable to both life on Earth and life in space. This year we have 40 
+ challenges and 25 projects from last year's Space Apps that support NASA's 
+ mission directorates in five themes: Earth Watch\, Technology in Space\, Hu
+ man Spaceflight\, Robotics and Asteroids. NASA is leading this global colla
+ boration along with a number of government collaborators and 100+ local org
+ anizations.
+LAST-MODIFIED:20140404T193512Z
+LOCATION:Cambridge Innovation Center\, Cambridge\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Space Apps Hackathon
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140404
+DTEND;VALUE=DATE:20140405
+DTSTAMP:20140902T231413Z
+UID:jrpv3td04lq8jahmpej5tthibg@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.jrpv3td04lq8jahmpej5tthibg
+CREATED:20140326T160406Z
+DESCRIPTION:http://space.newurbanmechanics.org/\n\n---\n\nIn Boston\, a thi
+ rd of the land is open to the public. We invite you to reimagine that space
+ . How can our streets\, plazas\, sidewalks\, street furniture\, and public 
+ buildings better serve people?\n\nThe Mayor’s Office of New Urban Mechanics
+  Streetscape Lab is sourcing ideas from designers\, makers\, artists\, and 
+ engineers to improve Boston. We are asking members of our vibrant creative 
+ community to submit project ideas to make our public spaces simple\, intuit
+ ive\, and literally awesome. Project ideas can be entirely new creations or
+  a new way of using an existing product. The City will review the submissio
+ ns and may select up to six ideas total to implement in the following categ
+ ories:\n\nThe Streetscape: sidewalks\, streets\, medians\, plazas\, and our
+  other civic front porches. What improvements would you make to space? What
+  is the next iteration of our classic street furniture? Look at the sample 
+ locations to get you thinking.\n\nBoston City Hall: rethinking the indoor a
+ nd outdoor space\, signage\, improving service delivery and the user experi
+ ence. These designs may help inform future improvements to the building.\n\
+ nRandom Awesome Designs: great ideas that defy classification or location. 
+LAST-MODIFIED:20140329T231117Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:DEADLINE: Public Spaces Invitational (EXTENDED!!)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140407
+DTEND;VALUE=DATE:20140408
+DTSTAMP:20140902T231413Z
+UID:g7sjopjdkl489k7sg7hli374no@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.g7sjopjdkl489k7sg7hli374no
+CREATED:20140326T160222Z
+DESCRIPTION:http://www.whitehouse.gov/innovationfellows\n\n---\nThe Preside
+ ntial Innovation Fellows (PIF) program brings the principles\, values\, and
+  practices of the innovation economy into government through the most effec
+ tive agents of change we know: our people. This highly-competitive program 
+ pairs talented\, diverse individuals from the innovation community with top
+  civil servants to tackle many of our Nation’s biggest challenges\, and to 
+ achieve a profound and lasting social impact. These teams of government exp
+ erts and private-sector doers are taking a “lean startup” approach and appl
+ ying methods like user-centered design to achieve results for the American 
+ people in months\, not years.
+LAST-MODIFIED:20140326T160415Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:DEADLINE: Presidential Innovation Fellowship Applications
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140405T180000Z
+DTEND:20140405T210000Z
+DTSTAMP:20140902T231413Z
+UID:ca7l2e0i5nr90j0ve89pkoe2j8@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.ca7l2e0i5nr90j0ve89pkoe2j8
+CREATED:20140326T151635Z
+DESCRIPTION:http://www.onein3boston.com/2014/03/18/talk-back-boston/\n\n---
+ \n\nTalk Back Boston is a panel\, forum and expo event that will discuss Bo
+ ston’s creative economy and entrepreneurship in order to create greater acc
+ ess to these fields and foster discussion.
+LAST-MODIFIED:20140326T151635Z
+LOCATION:Reggie Lewis Track and Athletic Center\, Tremont Street\, Roxbury 
+ Crossing\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TalkBack Boston
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140405T123000Z
+DTEND:20140405T213000Z
+DTSTAMP:20140902T231413Z
+UID:fm3ei472ke41b74srqiroqpnv8@google.com
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Y29kZWZvcmFtZX
+ JpY2Eub3JnX3NsdGZvNGxsOW5jZ2p0ZGo5aXUydmVqYTQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZ
+ S5jb20.fm3ei472ke41b74srqiroqpnv8
+CREATED:20140326T151336Z
+DESCRIPTION:https://www.eventbrite.com/e/technological-innovation-in-govern
+ ment-toward-open-and-smart-government-symposium-registration-10646743697\n\
+ n--\n\nJoin us to listen and discuss with leaders in the emerging fields of
+  technology as they share their proven strategies\, policies\, and examples
+  of technological innovation in government.\n\nTOPICS\n\nTechnological Inno
+ vations in Government-Best Practices\nOpen Government and Gov 2.0\nData Inn
+ ovation –Using Data in the Public Sector and Big Data in Government\nOnline
+  Civic Engagement\nInnovation Implementation Challenges and Strategies\n\n
+LAST-MODIFIED:20140326T151336Z
+LOCATION:UMass Boston Campus Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Technological Innovation in Government
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140530
+DTEND;VALUE=DATE:20140602
+DTSTAMP:20140902T231413Z
+UID:hao56dhi416tqkf1j0m776f2c4@google.com
+CREATED:20140320T184246Z
+DESCRIPTION:http://www.meetup.com/Code-for-Boston/events/169976402/
+LAST-MODIFIED:20140320T184246Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RHoK Boston 2014: Hack the Hub
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140404
+DTEND;VALUE=DATE:20140407
+DTSTAMP:20140902T231413Z
+UID:bkilaee428acog2blqmk7jodas@google.com
+CREATED:20140320T184138Z
+DESCRIPTION:GiveCamp is a weekend-long event where technology professionals
+  – including designers\, developers and database administrators as well as 
+ marketers and web strategists – donate their time and unique talents to pro
+ vide software solutions for local charities and other non-profit organizati
+ ons. Since its inception in 2007\, the GiveCamp program has provided benefi
+ ts to over 150 charities\, with volunteer-time donations exceeding the equi
+ valent of $150\,000 in services!\n\nhttp://newenglandgivecamp.org/
+LAST-MODIFIED:20140320T184138Z
+LOCATION:Microsoft New England Research and Development Center\, Memorial D
+ rive\, Cambridge\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:New England GiveCamp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140404
+DTEND;VALUE=DATE:20140407
+DTSTAMP:20140902T231413Z
+UID:vu4r74vvs12vo435l3nqadps64@google.com
+CREATED:20140320T184022Z
+DESCRIPTION:http://www.cleanwebhackathon.com/
+LAST-MODIFIED:20140320T184022Z
+LOCATION:Greentown Labs\, Dane Street\, Somerville\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Boston Cleanweb Hackathon
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140322T130000Z
+DTEND:20140322T220000Z
+DTSTAMP:20140902T231413Z
+UID:85b5qr8itc7bq8ifhqt4k0tets@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140318T201126Z
+DESCRIPTION:For details\, link here: https://37billionmiledatathon.eventbri
+ te.com
+LAST-MODIFIED:20140318T201156Z
+LOCATION:District Hall - 75 Northern Ave - Boston\, MA 02210
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:37 Billion Mile Datathon
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140327T213000Z
+DTEND:20140328T010000Z
+DTSTAMP:20140902T231413Z
+UID:nnpn592dr5svem5pftbo7in2b4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140311T210835Z
+DESCRIPTION:For details\, link here: https://www.eventbrite.com/e/microsoft
+ -innovation-policy-center-new-england-a-conversation-on-civic-technology-ti
+ ckets-10738977571
+LAST-MODIFIED:20140311T210917Z
+LOCATION:Microsoft Research & Development Center - 1 Memorial Dr - Cambridg
+ e\, MA 02142
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Microsoft Innovation & Policy Center- New England: A Conversation o
+ n Civic Technology
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140312T223000Z
+DTEND:20140313T000000Z
+DTSTAMP:20140902T231413Z
+UID:ijm0relt0m3ljhg6qg3qtiuap8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140303T002632Z
+DESCRIPTION:For details\, link here: https://bostoncityhall.eventbrite.com
+LAST-MODIFIED:20140309T225801Z
+LOCATION:Terrible Labs Design Studio - 125 Kingston St - 4th Floor - Boston
+ \, MA 02111
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meet Boston City Hall: New Urban Mechanics
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140313T220000Z
+DTEND:20140314T010000Z
+DTSTAMP:20140902T231413Z
+UID:fklgiffplvj5fi95fo2niim254@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140309T220910Z
+DESCRIPTION:For details\, link here: https://intelligentmischief.eventbrite
+ .com
+LAST-MODIFIED:20140309T221221Z
+LOCATION:Impact Hub - 101 Main St - Cambridge\, MA 02142
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Intelligent Mischief Launch: Creative Roots Meets the Creative Clas
+ s
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140225T230000Z
+DTEND:20140226T000000Z
+DTSTAMP:20140902T231413Z
+UID:2qtou3a20ipfh785sdff4n02g8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Boston
+  Civic Innovation;X-NUM-GUESTS=0:mailto:codeforamerica.org_sltfo4ll9ncgjtdj
+ 9iu2veja48@group.calendar.google.com
+CREATED:20140219T184925Z
+DESCRIPTION:For details\, link here: https://publicspace.eventbrite.com
+LAST-MODIFIED:20140221T223613Z
+LOCATION:District Hall - 75 Northern Ave - Boston\, MA 02210
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Public Space Invitational Forum
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140405T130000Z
+DTEND:20140405T210000Z
+DTSTAMP:20140902T231413Z
+UID:ls5qai77g3tt5s5vaekieqr164@google.com
+CREATED:20140217T232140Z
+DESCRIPTION:REGISTER HERE:\nhttp://transportationcamp.org/\n\n---\n\nTransp
+ ortationCamp brings together thinkers and doers in the fields of transporta
+ tion & technology.\n\nTransportationCamp is an unconference bringing togeth
+ er transportation professionals\, technologists\, and others interested in 
+ the intersection of urban transportation and technology.\n\nTransportation 
+ is a major metropolitan issue\, with direct impacts on economic strength\, 
+ environmental sustainability\, and social equity. Recent advances in techno
+ logy—mobile computing\, open source software\, open data and APIs\, and spa
+ tial analysis—present an opportunity to improve mobility more immediately a
+ nd at a lower cost than has ever been possible in the past.\n\nTransportati
+ onCamp raises awareness of this opportunity and builds connections between 
+ disparate innovators in public administration\, transportation operations\,
+  information design\, and software engineering.
+LAST-MODIFIED:20140217T232140Z
+LOCATION:Stata Center\, Main Floor\, 32 Vassar St\, Cambridge\, MA 02139.
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Transportation Camp Boston
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140222T150000Z
+DTEND:20140222T230000Z
+DTSTAMP:20140902T231413Z
+UID:mn9dmi35e1abluka78nim5qpb8@google.com
+CREATED:20140217T231916Z
+DESCRIPTION:REGISTER HERE:\nhttp://www.meetup.com/Code-for-Boston/events/16
+ 0229492/\n\n---\n\nJoin Code for Boston for a day full of civic hacking\, p
+ roject demos\, and great discussion as we look to push beyond transparency 
+ and kick off our 2014 event schedule.\n\nAt CodeAcross\, we'll be looking t
+ o introduce new members of the Boston community to civic technology and ope
+ n data\, show off the projects that we (and other local civic technologists
+ ) have been building\, and address civic problems in the Metro Boston area 
+ through code and conversation.\n\nIn the morning\, we'll have a brief infor
+ mation session about our local Brigade as well as the national Code for Ame
+ rica organization\, followed by a series of project demos.\n\nIn the aftern
+ oon\, we'll be providing two activity tracks for CodeAcross participants: a
+  hack track and a talk track.\n\nThe hack track is geared towards developer
+ s\, designers\, and others who want to roll up their sleeves and dig into s
+ ome code. We have a number of in-progress Code for Boston projects to work 
+ on including Finda\, Adopt-a-Tree\, MA Code\, Pantry Pickup\, WillTheyTow.M
+ e\, and more. Participants may also pitch their own civic projects to the c
+ ommunity.\n\nThe talk track is geared towards civic activists\, researchers
+ \, academics\, government folks\, and other non-coders who want to learn mo
+ re about open data and civic technology\, and how it can have a positive im
+ pact on their local communities\, organizations\, or municipalities. Althou
+ gh we have several topics we'd like to discuss\, participants are encourage
+ d to suggest their own topics for each session.\n\nWe hope to see you there
+ !\n\n---\n\nABOUT CODEACROSS\n\nCodeAcross is part of a weekend of civic in
+ novation events taking place in +60 cities in the US and across the world\,
+  sponsored by Code for America. Coinciding with International Open Data Day
+ \, the theme of CodeAcross 2014 is BEYOND TRANSPARENCY: how we can move pas
+ t simply focusing on opening data\, but on how we can make it actionable fo
+ r use in understanding and improving our local communities. Read more about
+  CodeAcross here.\n\n---\n\nSponsored by MICROSOFT and ESRI\n\n---\n\nSCHED
+ ULE (Subject to change)\n\n10-10:30am: Arrival & registration\n10:30-11am: 
+ Introduction to Code for Boston and Code for America\n11am-12pm: Demo Sessi
+ on 1\n12-1pm: Lunch and Demo Session 2\n1-1:30pm: Break\n1:30-1:45pm: Activ
+ ity Track\n1:45-2:45pm: Session 1\n2:45-3pm: Break\n3-4pm: Session 2\n4-5pm
+ : Session Outputs & Wrap-up \n\n---\n\nPROJECT DEMOS\n\n(Will be updated)\n
+ \nFind-a: Sarah Laplante\, Code for Boston\n\nAdopt-a-Tree design concepts:
+  Joanna Kleinschmidt\, Constant Contact\n\nCivic Hacking Motivations and Id
+ entities: Tanya Stepasiuk\, UMass Boston\n\n
+LAST-MODIFIED:20140217T231916Z
+LOCATION:Microsoft New England Research and Development Center\, Memorial D
+ rive\, Cambridge\, MA\, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CodeAcross: Boston 2014
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140224T233000Z
+DTEND:20140225T020000Z
+DTSTAMP:20140902T231413Z
+UID:obb5cfbdaug7p1tvcfii6bf164@google.com
+CREATED:20140217T231302Z
+DESCRIPTION:REGISTER HERE:\nhttps://www.eventbrite.com/e/the-feast-boston-f
+ ebruary-feast-empathy-tickets-10458548801?aff=esm&rank=1\n\n---\n\nCities a
+ cross the globe are organizing a monthly feast of inspiration for thinkers\
+ , makers\, and doers. At Impact Hub Boston\, we're engaging that feast loca
+ lly -- and yes\, this feast comes with food. For $10 you get a lovely dinne
+ r along with an inspiring talk\, rich conversation\, and a call-to-action. 
+ For $20\, you get the same as well as donate the opportunity to someone els
+ e\, helping us keep an open table so that the ticket price doesn't prevent 
+ anyone from joining the feast.\n\nJoin Our Friends at...  \nImpact Hub Bost
+ on: Geoff Mamlet\, Shaina Semiatin and Katie Shultz\nalong with Justin Kang
+  from Yesware\, Inc. and Janice Caillet from iSTARTUP\nas together we hold 
+ the second monthly Feast in the Boston area.\n\nOur Theme This Month:  Empa
+ thy\n\nThe world’s a tough place\, but we’re all in it together. This month
+  we’re exploring the power — and challenge — of empathy\, by asking how we 
+ can embrace this emotion in our work to change the world. \n\nWe’ve made a 
+ lot of progress getting along with each other\, but there’s still lots to d
+ o. Even as technology connects us\, we’re retreating more and more into our
+  own silos of opinion and beliefs. And as we all know\, a house divided doe
+ s not stand. \n\nSo\, how do we enable empathy between completely different
+  groups? How might we learn to engage each other again\, and to move beyond
+  difference?\n\nFrom street art that reminds us we’re all human\, to data v
+ isualizations that bring out the lives behind the numbers\, to school progr
+ ams addressing inequality\, how might we use empathy to cross the divide an
+ d better connect humanity?\n\nJoin us for a feast like none other in Boston
+  as the conversation also unfolds in New York\, Mexico City\, Kuala Lumpur 
+ and Toronto. \n\nOur guest speaker will be Yousef Bashir\, a Palestinian na
+ tive and 2013 graduate of Northeastern University with a BA in Internationa
+ l Affairs. Based on his experience of growing up in Gaza\, Yousef has spoke
+ n widely on behalf of mutual understanding and acceptance in the Middle Eas
+ t\, with the goal of creating a world movement for peace and forgiveness: "
+ To err is human\, to forgive is divine." He is currently studying negotiati
+ on. coexistence\, and conflict for his MA at Brandeis Heller School for Soc
+ ial Policy and Management.\n\nTogether\, we will break bread (and other goo
+ dies). Your ticket price will cover the provided meal\, while you'll be exp
+ ected to bring an open mind to contribute to the discussion and share with 
+ the group a commitment (big or small) to follow through after the dinner. Y
+ ou may also bring your own beverages (beer\, wine\, soda\, otherwise)\, if 
+ you'd like something other than water\, tea\, or coffee.  \n\nWe'll start g
+ athering at 6:30\, and our guest speaker will kick off our dialogue startin
+ g at 7:00 pm.\n\nWE LOOK FORWARD TO HAVING YOU AT OUR TABLE.\n\n\nGeoff\, S
+ haina\, Katie\, Justin & Janice\n\n\nCheck out what the Huffington Post wro
+ te about the annual FEAST we all hosted in October 2013.\n
+LAST-MODIFIED:20140217T231302Z
+LOCATION:Impact Hub Boston
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Feast Boston: February Feast - Empathy
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20130601
+DTEND;VALUE=DATE:20130603
+DTSTAMP:20140902T231413Z
+UID:ol4ccganfpg78vsmlimdsk5sao@google.com
+CREATED:20130408T134459Z
+DESCRIPTION:http://hackforchange.org/events
+LAST-MODIFIED:20130408T134505Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:National Day of Civic Hacking
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20130409T223000Z
+DTEND:20130410T013000Z
+DTSTAMP:20140902T231413Z
+UID:bltj6inkhbq19r1l80d5gkt50k@google.com
+CREATED:20130408T134353Z
+DESCRIPTION:http://www.meetup.com/Open-Government-Boston/events/112607082/
+LAST-MODIFIED:20130408T134417Z
+LOCATION:the Boston Python Project Night 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Open Government Meetup at the Boston Python Project Night
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20130426
+DTEND;VALUE=DATE:20130429
+DTSTAMP:20140902T231413Z
+UID:70uvb39ul3fphqq5e0svlb6vb0@google.com
+CREATED:20130307T153634Z
+DESCRIPTION:See http://newenglandgivecamp.org/ for details
+LAST-MODIFIED:20130307T153718Z
+LOCATION:Microsoft’s New England Research & Development Center 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Code it Forward 
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20130405
+DTEND;VALUE=DATE:20130408
+DTSTAMP:20140902T231413Z
+UID:3jqg6m4j51gf7953n225f6ns6g@google.com
+CREATED:20130307T145519Z
+DESCRIPTION:Co-founded by Blake Burris\, Dynamo Labs\, Suchi Sharma\, Watts
+ @Work and Sunil Paul\, Spring Ventures\, Cleanweb Hackathon is the brainchi
+ ld of industry leaders in the cleantech and infotech spaces seeking to acce
+ lerate the innovation and commercialization of cleanweb applications and ra
+ ise awareness of the growing trend. During these weekend-long competitions 
+ in key markets\, developers\, designers\, and business professionals dedica
+ ted to optimizing resource use and driving cleantech development come toget
+ her to create new web applications that address current energy and resource
+  challenges.\n\nhttp://boston.cleanwebhack.com/wp/
+LAST-MODIFIED:20130307T145519Z
+LOCATION:Greentown Labs\, Boston\, MA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Boston Cleanweb Hackathon
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
