@@ -13,4 +13,5 @@ gem 'dotenv-rails', :groups => [:development, :test]
 group :development do
   gem 'thin'
   gem 'shotgun'
+  gem "minitest"
 end

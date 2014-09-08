@@ -11,10 +11,10 @@ class Agora < Sinatra::Application
 
   # EVENTS
   get '/events' do
-    halt 200, Models::Event.all.to_json
+    halt 200, Event.all.to_json
   end
   post '/events' do
-    event = Models::Event.create(JSON.parse(request.body.read))
+    event = Event.create(JSON.parse(request.body.read))
     halt 201, event.to_json
   end
 
