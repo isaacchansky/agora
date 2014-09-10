@@ -6,23 +6,24 @@ require_relative '../app/app'
 include Rack::Test::Methods
 
 def app
-  Agora.new
-end
-
-describe "basic routes" do
-  it "should return a status 404 if incorrect url" do
-    get "/bogus-route"
-    last_response.status.must_equal 404
-  end
-
-  it "should return a json message if incorrect url" do
-    get "/bogus-route"
-    assert last_response.body.include? "not found"
-  end
+  Agora
 end
 
 
-describe "Events" do
+describe Event do
+  before do
+
+  end
+
+  it "should return a 200" do
+    get "/events"
+    last_response.status.must_equal 200
+  end
+
+end
+
+
+describe Source do
 
   it "should return a 200" do
     get "/events"
