@@ -18,6 +18,7 @@ class Agora < Sinatra::Application
   # Set up DB
   # DataMapper.setup(:default, "#{ENV['DB_ADAPTER']}://#{ENV['DB_HOSTNAME']}/#{ENV['DB_NAME']}")
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/agora.db")
+  DataMapper::Model.raise_on_save_failure = true
 
   Event.auto_upgrade!
   Source.auto_upgrade!

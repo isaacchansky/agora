@@ -27,5 +27,6 @@ class Source
   include DataMapper::Resource
   property :id, Serial
   property :name, String, :required => true
-  property :ical_url, String, :format => :url
+  property :type, String, :required => true
+  property :url, String, :required => true, :unique => true
 end
