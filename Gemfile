@@ -8,7 +8,7 @@ gem 'datamapper'
 gem 'dm-sqlite-adapter'
 gem 'pg'
 gem 'icalendar'
-gem 'httpclient'
+gem 'http'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 

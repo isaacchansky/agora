@@ -62,7 +62,9 @@ GEM
       dotenv (= 0.11.1)
     eventmachine (1.0.3)
     fastercsv (1.5.5)
-    httpclient (2.4.0)
+    http (0.6.2)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
     icalendar (2.1.1)
     json (1.8.1)
     json_pure (1.8.1)
@@ -106,7 +108,7 @@ DEPENDENCIES
   datamapper
   dm-sqlite-adapter
   dotenv-rails
-  httpclient
+  http
   icalendar
   json
   minitest
