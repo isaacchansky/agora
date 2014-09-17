@@ -1,5 +1,8 @@
 require 'data_mapper'
 
+DataMapper::Property::String.length(255)
+DataMapper::Model.raise_on_save_failure = true
+
 class Event
   include DataMapper::Resource
   property :id, Serial
