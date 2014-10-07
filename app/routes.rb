@@ -129,7 +129,7 @@ class Agora < Sinatra::Application
     content_type :json
     source = Source.get(params[:id])
     if source == nil
-      halt 404, { :message => "Event not found" }.to_json
+      halt 404, { :message => "Source not found" }.to_json
     end
 
     begin
