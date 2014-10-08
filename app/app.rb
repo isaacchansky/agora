@@ -16,8 +16,7 @@ class Agora < Sinatra::Application
   config_file("config.yml")
 
   # Set up DB
-  # DataMapper.setup(:default, "#{ENV['DB_ADAPTER']}://#{ENV['DB_HOSTNAME']}/#{ENV['DB_NAME']}")
-  DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/agora.db")
+  DataMapper.setup(:default, "#{ENV['DB_ADAPTER']}://#{ENV['DB_HOSTNAME']}/#{ENV['DB_NAME']}")
 
   Event.auto_upgrade!
   Source.auto_upgrade!
