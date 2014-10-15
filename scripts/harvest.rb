@@ -8,7 +8,7 @@ sources = Source.all
 def harvest_events(source)
   puts "\nHarvesting Events from source: \"#{source.name}\" (#{source.url})..."
   response = HTTP.get source.url
-
+  puts response
   cals = Icalendar.parse response.body
   puts "Found #{cals.count} calendar(s)..."
 
@@ -16,7 +16,15 @@ def harvest_events(source)
     puts "There are #{cal.events.count} events in this calendar"
     cal.events.each do |event|
       puts "\t#{event.summary}"
-      # puts "\t#{event.description}"
+      Event.create(
+        source: source,
+        uid: event.uid,
+        start_date: event.dtstart,
+        end_date: event.dtend,
+        title: event.summary,
+        description: event.description,
+        url: event.url,
+        location: event.location)
     end
   end
 

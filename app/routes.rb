@@ -1,11 +1,19 @@
 require 'slim'
 require 'data_mapper'
+require './app/view_helpers'
 
 class Agora < Sinatra::Application
 
   # Documentation lives at here
   get '/' do
     slim :docs
+  end
+
+  # Demo for... demo purposes
+  get '/demo' do
+    @source = Source.first
+    @events = Event.all source: @source
+    slim :demo
   end
 
   # 404

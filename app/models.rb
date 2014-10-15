@@ -5,29 +5,31 @@ DataMapper::Model.raise_on_save_failure = true
 
 class Event
   include DataMapper::Resource
+  # Meta
   property :id, Serial
   property :created_at, DateTime
+  belongs_to :source
 
+  # Basic info
+  property :uid, String
   property :start_date, DateTime, :required => true
   property :end_date, DateTime, :required => true
-
   property :title, String, :required => true
   property :description, Text
+  # Resources
+  property :url, String
   property :pricing, String
   # Contact
   property :contact_email, String
   property :organizer, String
   # Location
-  property :location_name, String
-  property :location_address, String
-  property :location_post_code, String
-  property :location_town, String
-  property :location_country, String
+  property :location, String
 
 end
 
 class Source
   include DataMapper::Resource
+  has n, :events
   property :id, Serial
   property :name, String, :required => true
   property :type, String, :required => true
