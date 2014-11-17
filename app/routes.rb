@@ -29,17 +29,6 @@ class Agora < Sinatra::Application
     halt 200, Event.all.to_json
   end
 
-  post '/events' do
-    content_type :json
-    event = Event.new(JSON.parse(request.body.read))
-    begin
-      event.save
-      halt 201, source.to_json
-    rescue DataMapper::SaveFailureError => e
-      errors = e.resource.errors.full_messages
-      halt 400, { :errors => errors }.to_json
-    end
-  end
 
   get '/events/:id' do
     content_type :json
@@ -50,39 +39,6 @@ class Agora < Sinatra::Application
       halt 404, { :message => "Event not found" }.to_json
     end
   end
-
-  put '/events/:id' do
-    content_type :json
-    event = Event.get(params[:id])
-    if event == nil
-      halt 404, { :message => "Event not found" }.to_json
-    end
-
-    begin
-      event.update(JSON.parse(request.body.read))
-      halt 200, event.to_json
-    rescue DataMapper::SaveFailureError => e
-      errors = e.resource.errors.full_messages
-      halt 400, { :errors => errors }.to_json
-    end
-  end
-
-  delete '/events/:id' do
-    content_type :json
-    event = Event.get(params[:id])
-    if event == nil
-      halt 404, { :message => "Event not found" }.to_json
-    end
-
-    begin
-      event.destroy
-      halt 204, {}.to_json
-    rescue DataMapper::SaveFailureError => e
-      errors = e.resource.errors.full_messages
-      halt 400, { :errors => errors }.to_json
-    end
-  end
-
 
 
   ####################
