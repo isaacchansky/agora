@@ -23,6 +23,6 @@ class Agora < Sinatra::Application
 
   DataMapper.finalize
 
-  require_relative 'routes'
+  require './app/routes'
 
 end
