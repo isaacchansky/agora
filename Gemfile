@@ -8,7 +8,6 @@ gem 'datamapper'
 gem 'dm-postgres-adapter'
 gem 'pg'
 gem 'icalendar'
-gem 'http'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 

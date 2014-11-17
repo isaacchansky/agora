@@ -1,15 +1,15 @@
 require 'icalendar'
-require 'http'
-require_relative '../app/app.rb'
+require 'net/http'
+require './app/app.rb'
 
 sources = Source.all
 
 
 def harvest_events(source)
   puts "\nHarvesting Events from source: \"#{source.name}\" (#{source.url})..."
-  response = HTTP.get source.url
-  puts response
-  cals = Icalendar.parse response.body
+  uri = URI source.url
+  response = Net::HTTP.get uri
+  cals = Icalendar.parse response
   puts "Found #{cals.count} calendar(s)..."
 
   cals.each do |cal|
