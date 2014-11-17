@@ -8,11 +8,11 @@ gem 'datamapper'
 gem 'dm-postgres-adapter'
 gem 'pg'
 gem 'icalendar'
+gem 'thin'
 
-gem 'dotenv-rails', :groups => [:development, :test]
+gem 'dotenv-rails'
 
 group :development do
-  gem 'thin'
   gem 'shotgun'
   gem "minitest"
 end
