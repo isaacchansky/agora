@@ -11,8 +11,7 @@ class Agora < Sinatra::Application
 
   # Demo for... demo purposes
   get '/demo' do
-    @source = Source.first
-    @events = Event.all source: @source
+    @events = Event.all
     slim :demo
   end
 

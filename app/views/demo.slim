@@ -3,8 +3,6 @@ html
   head
     title Agora Events
   body
-    h1 Events from #{@source.name}
-
     ul
       - for event in @events do
         li
@@ -15,3 +13,5 @@ html
             strong="#{simple_date event.end_date}"
           p
             em=event.location
+          p
+            a href=event.source.url ="from #{event.source.name}"
