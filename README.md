@@ -21,7 +21,7 @@ If you need postgres set up & are on a mac, I recommend checking out [this walkt
 
 ###To Run
 ```bash
-  shotgun  # goofy name, just starts the server
+  shotgun  # starts autoreloading development server
 ```
 
 ###To Test

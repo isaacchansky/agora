@@ -12,8 +12,6 @@ Dotenv.load
 require "./app/models"
 
 class Agora < Sinatra::Application
-  register Sinatra::ConfigFile
-  config_file("config.yml")
 
   # Set up DB
   DataMapper.setup(:default, ENV["DATABASE_URL"] || "#{ENV["DB_ADAPTER"]}://#{ENV["DB_HOSTNAME"]}/#{ENV["DB_NAME"]}")

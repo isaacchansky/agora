@@ -5,7 +5,18 @@ require "slim"
 
 class Agora < Sinatra::Application
 
-  # Documentation lives at here
+  ############################################################
+  # SETUP
+  ############################################################
+
+  before "/api/*" do
+    content_type 'application/json'
+  end
+
+  ############################################################
+  # DOCS & STUFF
+  ############################################################
+
   get "/" do
     slim :docs
   end
@@ -18,46 +29,56 @@ class Agora < Sinatra::Application
 
   # 404
   not_found do
-    content_type :json
+    content_type 'application/json'
     halt 404, { error: "URL is not found" }.to_json
   end
 
 
-  ########################################
+
+  ############################################################
   # API V-1.0
-  ########################################
+  ############################################################
   namespace "/api/v1" do
 
-    ####################
-    # EVENTS
-    ####################
+
+    ##########################################################
+    # E V E N T S
+    ##########################################################
+
     get "/events" do
-      content_type :json
+      # TODO: add some sort of pagination.
       halt 200, Event.all.to_json
+
     end
 
 
     get "/events/:id" do
-      content_type :json
+
       event = Event.get(params[:id])
       if event
         halt 200, event.to_json
       else
         halt 404, { message: "Event not found" }.to_json
       end
+
     end
 
 
-    ####################
-    # Source
-    ####################
+
+
+    ##########################################################
+    # S O U R C E S
+    ##########################################################
+
     get "/sources" do
-      content_type :json
+
       halt 200, Source.all.to_json
+
     end
+
 
     post "/sources" do
-      content_type :json
+
       source = Source.new(JSON.parse(request.body.read))
       begin
         source.save
@@ -66,36 +87,42 @@ class Agora < Sinatra::Application
         errors = e.resource.errors.full_messages
         halt 400, { errors: errors }.to_json
       end
+
     end
 
+
     get "/sources/:id" do
-      content_type :json
+
       source = Source.get(params[:id])
       if source
         halt 200, source.to_json
       else
         halt 404, { message: "Source not found" }.to_json
       end
+
     end
 
+
     put "/sources/:id" do
-      content_type :json
+
       source = Source.get(params[:id])
       if source == nil
         halt 404, { message: "Source not found" }.to_json
       end
 
       begin
-        source.update(JSON.parse(request.body.read))
+        source.update( JSON.parse(request.body.read) )
         halt 200, source.to_json
       rescue DataMapper::SaveFailureError => e
         errors = e.resource.errors.full_messages
         halt 400, { errors: errors }.to_json
       end
+
     end
 
+
     delete "/sources/:id" do
-      content_type :json
+
       source = Source.get(params[:id])
       if source == nil
         halt 404, { message: "Source not found" }.to_json
@@ -108,7 +135,9 @@ class Agora < Sinatra::Application
         errors = e.resource.errors.full_messages
         halt 400, { errors: errors }.to_json
       end
+
     end
+
 
   end
 end

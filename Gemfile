@@ -10,9 +10,9 @@ gem 'pg'
 gem 'icalendar'
 gem 'thin'
 
-gem 'dotenv-rails'
+gem 'dotenv'
 
 group :development do
   gem 'shotgun'
-  gem "minitest"
+  gem 'minitest'
 end
