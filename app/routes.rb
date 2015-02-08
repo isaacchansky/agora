@@ -63,6 +63,16 @@ class Agora < Sinatra::Application
 
     end
 
+    # Events search
+
+    get "/search" do
+
+      # search for terms in description and title
+      search_results = Event.ft_search(params[:q], [:description, :title])
+
+      halt 200, search_results.to_json
+
+    end
 
 
 
