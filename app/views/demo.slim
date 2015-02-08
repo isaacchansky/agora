@@ -1,17 +1,19 @@
 doctype html
 html
   head
-    title Agora Events
-  body
-    ul
-      - for event in @events do
-        li
-          h2=event.title
-          p=event.description
-          p
-            strong="#{simple_date event.start_date} - "
-            strong="#{simple_date event.end_date}"
-          p
-            em=event.location
-          p
-            a href=event.source.url ="from #{event.source.name}"
+    title Agora Events Demo
+    link rel="stylesheet" href="/main.css"
+    script src="/jquery-2.1.3.min.js"
+    script src="/search.js"
+  body.container
+    header.row
+      h1.text-center Demo of Agora Events API
+      a href="http://codeforboston.org" a Code for Boston project
+    section.row
+      form#search
+        div.nine.columns
+          input.u-full-width type="text" placeholder="search for events!"/
+        div.three.columns
+          input.u-full-width.button-primary type="submit" value="Find 'em"/
+      div#results
+
