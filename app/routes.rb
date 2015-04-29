@@ -44,7 +44,6 @@ class Agora < Sinatra::Application
     ##########################################################
     # E V E N T S
     ##########################################################
-
     get "/events" do
       slk
       # TODO: add some sort of pagination.
@@ -76,11 +75,9 @@ class Agora < Sinatra::Application
     end
 
 
-
     ##########################################################
     # S O U R C E S
     ##########################################################
-
     get "/sources" do
 
       halt 200, Source.all.to_json
@@ -128,7 +125,6 @@ class Agora < Sinatra::Application
         errors = e.resource.errors.full_messages
         halt 400, { errors: errors }.to_json
       end
-
     end
 
 
