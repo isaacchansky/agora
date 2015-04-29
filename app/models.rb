@@ -26,7 +26,7 @@ class Event
   property :location, String
 
 
-  def self.ft_search(query_string, model_attributes)
+  def self.full_text_search(query_string, model_attributes)
     # A crude, full text-ish search for events.
     # Parameters:
     #   query_string = basic string, no operators are supported at this time.

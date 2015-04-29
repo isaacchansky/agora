@@ -1,7 +1,7 @@
 require "sinatra/namespace"
 require "data_mapper"
-require "./app/view_helpers"
 require "slim"
+require "./app/view_helpers"
 
 class Agora < Sinatra::Application
 
@@ -46,6 +46,7 @@ class Agora < Sinatra::Application
     ##########################################################
 
     get "/events" do
+      slk
       # TODO: add some sort of pagination.
       halt 200, Event.all.to_json
 
@@ -68,7 +69,7 @@ class Agora < Sinatra::Application
     get "/search" do
 
       # search for terms in description and title
-      search_results = Event.ft_search(params[:q], [:description, :title])
+      search_results = Event.full_text_search(params[:q], [:description, :title]).sort_by(&:start_date).reverse
 
       halt 200, search_results.to_json
 

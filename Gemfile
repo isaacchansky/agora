@@ -10,9 +10,9 @@ gem 'pg'
 gem 'icalendar'
 gem 'thin'
 
-gem 'dotenv'
-
 group :development do
   gem 'shotgun'
   gem 'minitest'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
