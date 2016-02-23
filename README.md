@@ -1,4 +1,7 @@
+#[This project is deprecated. The new, re-written API lives under github.com/codeforboston/calendar_api](https://github.com/codeforboston/calendar_api)
+
 #Agora
+
 
 A public community calendar aggregator which speaks JSON.
 
