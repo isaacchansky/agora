@@ -25,6 +25,30 @@ class Event
   # Location
   property :location, String
 
+  def self.full_text_search(query_string, model_attributes)
+    # A crude, full text-ish search for events.
+    # Parameters:
+    #   query_string = basic string, no operators are supported at this time.
+    #   model_attributes = array of model attributes as symbols.
+
+    # split up search term into tokens
+    search_terms = query_string.split(" ").map { |q| "%#{q}%" }
+    # using ILIKE for better querying.
+    operator = "ILIKE"
+
+    num_attr = model_attributes.count
+
+    # build out individual queries "<attribute> <operator> ? "
+    # so we can compose a larger query of something like:
+    #   title ILIKE ? OR title ILIKE ?
+    query_chunks = model_attributes.map do |attr|
+      Array.new(search_terms.count){ "#{attr} #{operator} ?" }.join(" OR ")
+    end
+    query = [query_chunks.flatten.join(" OR ")].concat(search_terms * num_attr)
+
+    # execute query on events
+    Event.all(conditions: query)
+  end
 end
 
 class Source

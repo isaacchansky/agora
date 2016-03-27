@@ -12,19 +12,20 @@ Agora aggregates others' calendars to create a single, public interface for deal
 
 Agora is a ruby application built with [Sinatra](http://www.sinatrarb.com/) & [Postgres](http://www.postgresql.org/)
 
-If you need postgres set up & are on a mac, I recommend checking out [this walkthrough](http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/). I will try to get examples for other OS up soon.
+If you need postgres set up & are on a mac, I recommend using [postgres App](http://postgresapp.com/).
 
 ###To Start
+Make sure postgres is started and you have a database called *agora*
 ```bash
+  createdb agora # if you dont have a postgres db already
   git clone <this repo>
   cd <the cloned repo>
-  lunchy start postgres   # or however else you want to start postgres running on  your machine
   bundle install  #install ruby dependencies
 ```
 
 ###To Run
 ```bash
-  shotgun  # goofy name, just starts the server
+  shotgun  # starts autoreloading development server
 ```
 
 ###To Test
